@@ -1,0 +1,25 @@
+{
+  "name": "ac-fetch-ranking-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jsdom": "^16.4.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "fetch": "node ci/index.js > ranking.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y-i/ac-fetch-ranking-stats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/y-i/ac-fetch-ranking-stats/issues"
+  },
+  "homepage": "https://github.com/y-i/ac-fetch-ranking-stats#readme"
+}
