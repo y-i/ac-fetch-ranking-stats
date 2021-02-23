@@ -40,7 +40,6 @@ const fetchUsersInfoFromURL = async (url) => {
     for (let i = 1; i <= pageNum; ++i) {
         const ret = await fetchUsersInfoFromURL(`https://atcoder.jp/ranking?page=${i}`);
         Object.assign(json, ret);
-				break;
         await sleep(100);
     }
 
