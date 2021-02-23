@@ -2,7 +2,7 @@ name: Fetch Ranking Scheduler
 
 on:
   schedule:
-    - cron: "39 0 * * 1"
+    - cron: "39 16 * * 0"
 
 jobs:
   fetch-ranking:
